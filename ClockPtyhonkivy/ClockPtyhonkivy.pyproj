@@ -21,9 +21,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="calculator.py" />
+    <Compile Include="class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClockDemo.py" />
     <Compile Include="ClockPtyhonkivy.py" />
+    <Compile Include="EjemploPintar.py" />
+    <Compile Include="Login.py" />
+    <Compile Include="snake.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="snake.v2.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="calculator.kv" />
+    <Content Include="Drawing.kv" />
     <Content Include="Instalador.bat" />
     <Content Include="requerimientos.txt" />
   </ItemGroup>
